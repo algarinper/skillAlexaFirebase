@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:432772442890:function:3b35d014-11cc-43ea-a316-8575fa07acd1:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:432772442890:function:3b35d014-11cc-43ea-a316-8575fa07acd1:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:432772442890:function:3b35d014-11cc-43ea-a316-8575fa07acd1:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:432772442890:function:3b35d014-11cc-43ea-a316-8575fa07acd1:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "en-US": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open hello world",
+            "hello",
+            "help"
+          ],
+          "keywords": [],
+          "name": "demo firebase",
+          "summary": "Sample Short Description"
+        },
+        "es-ES": {
+          "name": "demo firebase"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

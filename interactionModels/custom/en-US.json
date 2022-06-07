@@ -1,0 +1,564 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "demo firebase",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "InputIntent",
+          "slots": [
+            {
+              "name": "pulso",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "usuarioID",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "letraID",
+              "type": "letraAbecedario"
+            }
+          ],
+          "samples": [
+            "add {pulso} for {usuarioID} ",
+            "add {pulso}"
+          ]
+        },
+        {
+          "name": "Newuser",
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "samples": [
+                "{nombre}",
+                "mi nombre es {nombre}"
+              ]
+            },
+            {
+              "name": "apellido",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "samples": [
+                "{apellido}",
+                "mi primer apellido es {apellido}"
+              ]
+            },
+            {
+              "name": "email",
+              "type": "AMAZON.WrittenCreativeWorkType",
+              "samples": [
+                "mi email es {email}",
+                "{email}"
+              ]
+            },
+            {
+              "name": "fechaNacimiento",
+              "type": "AMAZON.DATE",
+              "samples": [
+                "{fechaNacimiento}",
+                "mi fecha de nacimiento es el {fechaNacimiento}"
+              ]
+            },
+            {
+              "name": "telefono",
+              "type": "AMAZON.PhoneNumber",
+              "samples": [
+                "mi numero es {telefono}",
+                "{telefono}"
+              ]
+            },
+            {
+              "name": "DNI",
+              "type": "AMAZON.WrittenCreativeWorkType"
+            },
+            {
+              "name": "letraDni",
+              "type": "letraAbecedario"
+            }
+          ],
+          "samples": [
+            "Creame un usuario con nombre {nombre}  apellido {apellido} telefono {telefono} email {email}  fecha de nacimiento {fechaNacimiento} y dni {DNI} y letra {letraDni}",
+            "Quiero crear un usuario",
+            "Creame un usuario nuevo",
+            "Creame un nuevo usuario"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "z",
+                "synonyms": [
+                  "z.",
+                  "Z"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "y",
+                "synonyms": [
+                  "y.",
+                  "Y"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "x",
+                "synonyms": [
+                  "x.",
+                  "X"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "w",
+                "synonyms": [
+                  "w.",
+                  "W"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "v",
+                "synonyms": [
+                  "v.",
+                  "V"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "u",
+                "synonyms": [
+                  "u.",
+                  "U"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "t",
+                "synonyms": [
+                  "t.",
+                  "T"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "s",
+                "synonyms": [
+                  "s.",
+                  "S"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "r",
+                "synonyms": [
+                  "r.",
+                  "R"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "q",
+                "synonyms": [
+                  "q.",
+                  "Q"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "p",
+                "synonyms": [
+                  "p.",
+                  "P"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "o",
+                "synonyms": [
+                  "o.",
+                  "O"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "ñ",
+                "synonyms": [
+                  "ñ.",
+                  "Ñ"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "n",
+                "synonyms": [
+                  "n.",
+                  "N"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "m",
+                "synonyms": [
+                  "m.",
+                  "M"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "l",
+                "synonyms": [
+                  "l.",
+                  "L"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "k",
+                "synonyms": [
+                  "k.",
+                  "K"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "j",
+                "synonyms": [
+                  "j.",
+                  "J"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "i",
+                "synonyms": [
+                  "i.",
+                  "I"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "h",
+                "synonyms": [
+                  "h.",
+                  "H"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "g",
+                "synonyms": [
+                  "g.",
+                  "G"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "f",
+                "synonyms": [
+                  "f.",
+                  "F"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "e",
+                "synonyms": [
+                  "e.",
+                  "E"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "d",
+                "synonyms": [
+                  "d.",
+                  "D"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "c",
+                "synonyms": [
+                  "c.",
+                  "C"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "b",
+                "synonyms": [
+                  "b.",
+                  "B"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "a",
+                "synonyms": [
+                  "a.",
+                  "A"
+                ]
+              }
+            }
+          ],
+          "name": "letraAbecedario"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "InputIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pulso",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "usuarioID",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "letraID",
+              "type": "letraAbecedario",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        },
+        {
+          "name": "Newuser",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "nombre",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1580661384537.1484247460525"
+              }
+            },
+            {
+              "name": "apellido",
+              "type": "AMAZON.DE_FIRST_NAME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1580661384537.1005405589143"
+              }
+            },
+            {
+              "name": "email",
+              "type": "AMAZON.WrittenCreativeWorkType",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1580661384537.1482917857229"
+              }
+            },
+            {
+              "name": "fechaNacimiento",
+              "type": "AMAZON.DATE",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1580661384537.984762562055"
+              }
+            },
+            {
+              "name": "telefono",
+              "type": "AMAZON.PhoneNumber",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1580661384537.1084447490093"
+              }
+            },
+            {
+              "name": "DNI",
+              "type": "AMAZON.WrittenCreativeWorkType",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "letraDni",
+              "type": "letraAbecedario",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.383882790735.125695308909",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Genial, recogere tu pulso pero dime tu DNI sin la letra"
+          },
+          {
+            "type": "PlainText",
+            "value": "Debes decirme tu DNI sin la letra"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.1484247460525",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Genial, dime tu nombre"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.1005405589143",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Perfecto, dime tu primer apellido"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.1482917857229",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Vale, pero debes decirme ahora tu email"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.984762562055",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Vale pero antes necesito tu fecha de nacimiento"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.1084447490093",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Genial pero necesito tambiémn tu numero de telefono"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.861219067891",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Genial pero antes dime tu DNI"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.383882790735.1243032085030",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Y la letra del DNI "
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1580661384537.1175517748248",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "dime la letra del dni"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.383882790735.1243032085030.656377006223",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "La letra del dni no es valida"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1580661384537.1175517748248.533493180853",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "La letra del dni no es valida"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "15"
+}
